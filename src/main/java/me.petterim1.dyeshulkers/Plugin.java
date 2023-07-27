@@ -32,6 +32,9 @@ public class Plugin extends PluginBase implements Listener {
                             case 17:
                                 color = DyeColor.BROWN.getWoolData();
                                 break;
+                            case 16:
+                                color = DyeColor.BLACK.getWoolData();
+                                break;
                             default:
                                 color = ((ItemDye) e.getItem()).getDyeColor().getWoolData();
                         }
@@ -51,6 +54,9 @@ public class Plugin extends PluginBase implements Listener {
                             break;
                         case 17:
                             color = DyeColor.BROWN.getWoolData();
+                            break;
+                        case 16:
+                            color = DyeColor.BLACK.getWoolData();
                             break;
                         default:
                             color = ((ItemDye) e.getItem()).getDyeColor().getWoolData();
